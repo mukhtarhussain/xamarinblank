@@ -1,0 +1,15 @@
+C:\Users\hiitp\source\repos\XamarinBlank\XamarinBlank\XamarinBlank\bin\Debug\netstandard2.0\XamarinBlank.deps.json
+C:\Users\hiitp\source\repos\XamarinBlank\XamarinBlank\XamarinBlank\bin\Debug\netstandard2.0\XamarinBlank.dll
+C:\Users\hiitp\source\repos\XamarinBlank\XamarinBlank\XamarinBlank\bin\Debug\netstandard2.0\XamarinBlank.pdb
+C:\Users\hiitp\source\repos\XamarinBlank\XamarinBlank\XamarinBlank\obj\Debug\netstandard2.0\XamarinBlank.csproj.AssemblyReference.cache
+C:\Users\hiitp\source\repos\XamarinBlank\XamarinBlank\XamarinBlank\obj\Debug\netstandard2.0\XamarinBlank.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hiitp\source\repos\XamarinBlank\XamarinBlank\XamarinBlank\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\hiitp\source\repos\XamarinBlank\XamarinBlank\XamarinBlank\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\hiitp\source\repos\XamarinBlank\XamarinBlank\XamarinBlank\obj\Debug\netstandard2.0\XamarinBlank.AssemblyInfoInputs.cache
+C:\Users\hiitp\source\repos\XamarinBlank\XamarinBlank\XamarinBlank\obj\Debug\netstandard2.0\XamarinBlank.AssemblyInfo.cs
+C:\Users\hiitp\source\repos\XamarinBlank\XamarinBlank\XamarinBlank\obj\Debug\netstandard2.0\XamarinBlank.csproj.CoreCompileInputs.cache
+C:\Users\hiitp\source\repos\XamarinBlank\XamarinBlank\XamarinBlank\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\hiitp\source\repos\XamarinBlank\XamarinBlank\XamarinBlank\obj\Debug\netstandard2.0\XamarinBlank.dll
+C:\Users\hiitp\source\repos\XamarinBlank\XamarinBlank\XamarinBlank\obj\Debug\netstandard2.0\refint\XamarinBlank.dll
+C:\Users\hiitp\source\repos\XamarinBlank\XamarinBlank\XamarinBlank\obj\Debug\netstandard2.0\XamarinBlank.pdb
+C:\Users\hiitp\source\repos\XamarinBlank\XamarinBlank\XamarinBlank\obj\Debug\netstandard2.0\ref\XamarinBlank.dll
