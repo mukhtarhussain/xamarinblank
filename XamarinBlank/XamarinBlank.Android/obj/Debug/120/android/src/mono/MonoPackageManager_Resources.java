@@ -3,9 +3,15 @@ public class MonoPackageManager_Resources {
 	public static String[] Assemblies = new String[]{
 		/* We need to ensure that "XamarinBlank.Android.dll" comes first in this list. */
 		"XamarinBlank.Android.dll",
+		"Azure.Core.dll",
+		"Azure.Storage.Blobs.dll",
+		"Azure.Storage.Common.dll",
 		"FormsViewGroup.dll",
 		"Microsoft.Bcl.AsyncInterfaces.dll",
 		"RestSharp.dll",
+		"System.Diagnostics.DiagnosticSource.dll",
+		"System.IO.Hashing.dll",
+		"System.Memory.Data.dll",
 		"System.Reactive.dll",
 		"System.Text.Encodings.Web.dll",
 		"System.Text.Json.dll",

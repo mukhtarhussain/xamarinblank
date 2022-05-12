@@ -1,3 +1,18 @@
+C:\Users\Gorilla Rig\Desktop\xamarinblank-master\xamarinblank-master\XamarinBlank\XamarinBlank\bin\Debug\netstandard2.0\XamarinBlank.deps.json
+C:\Users\Gorilla Rig\Desktop\xamarinblank-master\xamarinblank-master\XamarinBlank\XamarinBlank\bin\Debug\netstandard2.0\XamarinBlank.dll
+C:\Users\Gorilla Rig\Desktop\xamarinblank-master\xamarinblank-master\XamarinBlank\XamarinBlank\bin\Debug\netstandard2.0\XamarinBlank.pdb
+C:\Users\Gorilla Rig\Desktop\xamarinblank-master\xamarinblank-master\XamarinBlank\XamarinBlank\obj\Debug\netstandard2.0\XamarinBlank.csproj.AssemblyReference.cache
+C:\Users\Gorilla Rig\Desktop\xamarinblank-master\xamarinblank-master\XamarinBlank\XamarinBlank\obj\Debug\netstandard2.0\XamarinBlank.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Gorilla Rig\Desktop\xamarinblank-master\xamarinblank-master\XamarinBlank\XamarinBlank\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Gorilla Rig\Desktop\xamarinblank-master\xamarinblank-master\XamarinBlank\XamarinBlank\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\Gorilla Rig\Desktop\xamarinblank-master\xamarinblank-master\XamarinBlank\XamarinBlank\obj\Debug\netstandard2.0\XamarinBlank.AssemblyInfoInputs.cache
+C:\Users\Gorilla Rig\Desktop\xamarinblank-master\xamarinblank-master\XamarinBlank\XamarinBlank\obj\Debug\netstandard2.0\XamarinBlank.AssemblyInfo.cs
+C:\Users\Gorilla Rig\Desktop\xamarinblank-master\xamarinblank-master\XamarinBlank\XamarinBlank\obj\Debug\netstandard2.0\XamarinBlank.csproj.CoreCompileInputs.cache
+C:\Users\Gorilla Rig\Desktop\xamarinblank-master\xamarinblank-master\XamarinBlank\XamarinBlank\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Gorilla Rig\Desktop\xamarinblank-master\xamarinblank-master\XamarinBlank\XamarinBlank\obj\Debug\netstandard2.0\XamarinBlank.dll
+C:\Users\Gorilla Rig\Desktop\xamarinblank-master\xamarinblank-master\XamarinBlank\XamarinBlank\obj\Debug\netstandard2.0\refint\XamarinBlank.dll
+C:\Users\Gorilla Rig\Desktop\xamarinblank-master\xamarinblank-master\XamarinBlank\XamarinBlank\obj\Debug\netstandard2.0\XamarinBlank.pdb
+C:\Users\Gorilla Rig\Desktop\xamarinblank-master\xamarinblank-master\XamarinBlank\XamarinBlank\obj\Debug\netstandard2.0\ref\XamarinBlank.dll
 C:\Users\hiitp\source\repos\XamarinBlank\XamarinBlank\XamarinBlank\bin\Debug\netstandard2.0\XamarinBlank.deps.json
 C:\Users\hiitp\source\repos\XamarinBlank\XamarinBlank\XamarinBlank\bin\Debug\netstandard2.0\XamarinBlank.dll
 C:\Users\hiitp\source\repos\XamarinBlank\XamarinBlank\XamarinBlank\bin\Debug\netstandard2.0\XamarinBlank.pdb

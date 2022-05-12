@@ -1,0 +1,2 @@
+C:\Users\Gorilla Rig\Desktop\xamarinblank-master\xamarinblank-master\XamarinBlank\XamarinBlank.Android\obj\Debug\90\MonoAndroid,Version=v9.0.AssemblyAttributes.cs
+C:\Users\Gorilla Rig\Desktop\xamarinblank-master\xamarinblank-master\XamarinBlank\XamarinBlank.Android\obj\Debug\90\XamarinBlank.Android.nuget.stamp

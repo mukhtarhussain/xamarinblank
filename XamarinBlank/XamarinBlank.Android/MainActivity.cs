@@ -1,13 +1,9 @@
-﻿using System;
-
+﻿
 using Android.App;
 using Android.Content.PM;
 using Android.Runtime;
 using Android.OS;
-using Android.Content;
 using Com.Pvr.Tobservice;
-using Com.Pvr.Tobservice.Enums;
-using Com.Pvr.Tobservice.Interfaces;
 
 namespace XamarinBlank.Droid
 {
@@ -24,22 +20,12 @@ namespace XamarinBlank.Droid
 
             var context = Application.Context;
             ToBServiceHelper.Instance.BindTobService(context);
-
-            //ToBServiceHelper.Instance.ServiceBinder.PbsControlSetDeviceAction(PBS_DeviceControlEnum.DeviceControlReboot, new IntStub());
         }
         public override void OnRequestPermissionsResult(int requestCode, string[] permissions, [GeneratedEnum] Android.Content.PM.Permission[] grantResults)
         {
             Xamarin.Essentials.Platform.OnRequestPermissionsResult(requestCode, permissions, grantResults);
 
             base.OnRequestPermissionsResult(requestCode, permissions, grantResults);
-        }
-    }
-
-    public class IntStub : IntCallbackStub
-    {
-        public override void Callback(int p0)
-        {
-
         }
     }
 }
