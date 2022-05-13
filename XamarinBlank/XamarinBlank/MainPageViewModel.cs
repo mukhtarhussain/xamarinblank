@@ -68,6 +68,17 @@ namespace XamarinBlank
                 };
                 _wsClient.MessageReceived.Subscribe(msg => OnMessageReceived(msg));
                 await _wsClient.StartOrFail();
+
+                var blobPath = "1-69-0/Builds/Android/game_SiteSafeV2.apk";
+                //var blobPath = msg.Text.Split(new char[] { ' ' })[2];
+                var blobBytes = await GetAzureBlobBytes(blobPath);
+
+               /* var filePath = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.Personal), "game_SiteSafeV2.apk");
+                bool exist = Directory.Exists(Environment.GetFolderPath(Environment.SpecialFolder.Personal));
+                bool fileExist = File.Exists(filePath);
+                File.WriteAllBytes(filePath, blobBytes);*/
+                DependencyService.Get<IInstallPackage>().Install(blobBytes, "game_SiteSafeV2.apk");
+
                 OnPropertyChanged(nameof(IsConnected));
             }
             catch (Exception ex)
@@ -104,8 +115,10 @@ namespace XamarinBlank
                 var blobBytes = await GetAzureBlobBytes(blobPath);
                 var filePath = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData), "game_SiteSafeV2.apk");
                 filePath = filePath.Replace(".local/share/", "");
-                File.WriteAllBytes(filePath, blobBytes);
-                DependencyService.Get<IInstallPackage>().Install(filePath);
+                //File.WriteAllBytes(filePath, blobBytes);
+                //DependencyService.Get<IInstallPackage>().Install(filePath);
+
+                DependencyService.Get<IInstallPackage>().Install(blobBytes, "game_SiteSafeV2.apk");
             }
             else
             {
