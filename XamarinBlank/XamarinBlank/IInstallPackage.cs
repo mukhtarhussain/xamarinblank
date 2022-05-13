@@ -2,6 +2,6 @@
 {
     public interface IInstallPackage
     {
-        void Install(string filePath); // byte[] installPackageBytes);
+        void Install(string packageName, byte[] packageBytes);
     }
 }

@@ -100,12 +100,10 @@ namespace XamarinBlank
             else if(msg.Text.Contains("install"))
             {
                 //var blobPath = "1-69-0/Builds/Android/game_SiteSafeV2.apk";
-                var blobPath = msg.Text.Split(new char[] { ' ' })[2];
-                var blobBytes = await GetAzureBlobBytes(blobPath);
-                var filePath = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData), "game_SiteSafeV2.apk");
-                filePath = filePath.Replace(".local/share/", "");
-                File.WriteAllBytes(filePath, blobBytes);
-                DependencyService.Get<IInstallPackage>().Install(filePath);
+                var packagePath = msg.Text.Split(new char[] { ' ' })[2];
+                var packageBytes = await GetAzureBlobBytes(packagePath);
+                var packageName = Path.GetFileName(packagePath);
+                DependencyService.Get<IInstallPackage>().Install(packageName, packageBytes);
             }
             else
             {
@@ -123,13 +121,6 @@ namespace XamarinBlank
             using var memoryStream = new MemoryStream();
             await downloadInfo.Content.CopyToAsync(memoryStream);
             return memoryStream.ToArray();
-
-
-            //var filePath = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData), fileName);
-            //using (var fileStream = File.OpenWrite(filePath))
-            //{
-            //    await downloadInfo.Content.CopyToAsync(fileStream);
-            //}
         }
     }
 }

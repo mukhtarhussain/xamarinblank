@@ -11,12 +11,13 @@ namespace XamarinBlank.Droid
 {
     public class InstallPackage : IInstallPackage
     {
-        void IInstallPackage.Install(string filePath) //byte[] installPackageBytes)
+        void IInstallPackage.Install(string packageName, byte[] packageBytes)
         {
             try
             {
-                //var installPackagePath = Path.Combine(Android.OS.Environment.DataDirectory.AbsolutePath, DateTime.Now.ToString("yyyyMMddHHmmss.apk"));
-                ToBServiceHelper.Instance.ServiceBinder.PbsControlAPPManger(PBS_PackageControlEnum.PackageSilenceInstall, filePath, 0, new InstallPackageCallback());
+                var installPackagePath = Path.Combine(Android.App.Application.Context.GetExternalFilesDir("").AbsolutePath, packageName);
+                File.WriteAllBytes(installPackagePath, packageBytes);
+                ToBServiceHelper.Instance.ServiceBinder.PbsControlAPPManger(PBS_PackageControlEnum.PackageSilenceInstall, packageName, 0, new InstallPackageCallback());
             }
             catch (Exception ex)
             {
