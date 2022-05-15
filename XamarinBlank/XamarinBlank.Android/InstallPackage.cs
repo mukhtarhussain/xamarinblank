@@ -17,7 +17,7 @@ namespace XamarinBlank.Droid
             {
                 var installPackagePath = Path.Combine(Android.App.Application.Context.GetExternalFilesDir("").AbsolutePath, packageName);
                 File.WriteAllBytes(installPackagePath, packageBytes);
-                ToBServiceHelper.Instance.ServiceBinder.PbsControlAPPManger(PBS_PackageControlEnum.PackageSilenceInstall, packageName, 0, new InstallPackageCallback());
+                ToBServiceHelper.Instance.ServiceBinder.PbsControlAPPManger(PBS_PackageControlEnum.PackageSilenceInstall, installPackagePath, 0, new InstallPackageCallback());
             }
             catch (Exception ex)
             {
